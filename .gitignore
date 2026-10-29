@@ -1,0 +1,17 @@
+# Python environment
+.venv/
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Dataset and audio recordings
+data/ravdess/
+data/audio/
+
+# Temporary files
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db

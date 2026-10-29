@@ -1,0 +1,27 @@
+{
+  "experiment": "cnn_lstm_mfcc_delta_delta_augmented",
+  "test_accuracy": 0.38666666666666666,
+  "test_macro_f1": 0.3426992098877509,
+  "test_recordings": 300,
+  "num_classes": 8,
+  "emotion_labels": [
+    "neutral",
+    "calm",
+    "happy",
+    "sad",
+    "angry",
+    "fearful",
+    "disgust",
+    "surprised"
+  ],
+  "epochs_completed": 15,
+  "best_validation_loss": 1.9817708730697632,
+  "best_validation_accuracy": 0.4625000059604645,
+  "feature_type": "40 MFCC + 40 delta + 40 delta-delta",
+  "feature_shape": [
+    130,
+    120
+  ],
+  "augmentation": "mild additive noise and zero-padded time shift",
+  "split_type": "fixed actor-independent split"
+}

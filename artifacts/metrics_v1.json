@@ -1,0 +1,18 @@
+{
+  "test_accuracy": 0.2966666666666667,
+  "test_macro_f1": 0.2840885020850892,
+  "test_recordings": 300,
+  "num_classes": 8,
+  "emotion_labels": [
+    "neutral",
+    "calm",
+    "happy",
+    "sad",
+    "angry",
+    "fearful",
+    "disgust",
+    "surprised"
+  ],
+  "epochs_completed": 13,
+  "best_validation_loss": 1.723496913909912
+}

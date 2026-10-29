@@ -1,0 +1,10 @@
+tensorflow==2.15.1
+numpy==1.26.4
+pyarrow==15.0.2
+pandas
+scikit-learn
+librosa
+soundfile
+matplotlib
+streamlit==1.41.1
+plotly
